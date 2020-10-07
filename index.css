@@ -1,0 +1,131 @@
+header {
+    font-size: 40px;
+}
+
+.paragraf {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.paragraf__link {
+    color: #185b61;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form__input-panel__email-input,
+.form__input-panel__name-input {
+    border: none;
+    background-color: #80b0b4;
+    color: #185b61;
+    border-bottom: solid;
+    border-bottom-color: #185b61;
+    margin: 20px 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form__input-panel__email-input::placeholder,
+.form__input-panel__name-input::placeholder {
+    color: #185b61;
+}
+
+.form__agreement {
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+}
+
+.form__agreement__agreement-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form__agreement__box {
+    position: relative;
+    display: block;
+    height: 35px;
+    min-width: 35px;
+    margin-right: 8px;
+    background-color: #80b0b4;
+    border: solid #185b61;
+    overflow: hidden;
+}
+
+.form__agreement__mark {
+    position: relative;
+    display: block;
+    height: 36px;
+    min-width: 36px;
+    transform: rotate(40deg);
+    top: -15px;
+    left: -6px;
+    background-color: #80b0b4;
+    border: solid #185b61;
+    opacity: 0;
+}
+
+.form__submit {
+    background-color: #185b61;
+    color: #FFFFFF;
+    align-self: center;
+    margin: 20px 0;
+    height: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+
+.checked {
+    opacity: 1;
+}
+
+@media (min-width: 500px) {
+
+    header {
+        font-size: 50px;
+    }
+
+    .paragraf {
+        font-size: 28px;
+    }
+
+    .form {
+        padding: 0 20px;
+    }
+
+    .form__input-panel {
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .form__input-panel__name-input {
+        width: 30%;
+        margin-right: 10px;
+        font-size: 28px;
+    }
+
+    .form__input-panel__email-input {
+        width: 60%;
+        font-size: 28px;
+    }
+
+    .form__agreement {
+        padding-bottom: 30px;
+    }
+
+}

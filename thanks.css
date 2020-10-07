@@ -1,0 +1,17 @@
+.thanks__header {
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.thanks__header__name {
+    text-decoration: underline;
+    color: #3a3a3a;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.thanks__info {
+    font-size: 25px;
+}
+
